@@ -160,8 +160,9 @@ section{
 }
 
 .section-1-body-image{
-    height: 20rem;
+    height: 30rem;
 }
+
 .body-footer {
     width: 100%;
     display: flex;
@@ -320,20 +321,119 @@ footer{
 
 
 @media screen and (min-width:1023.5px){
-    
-    section{
-        margin: 0 0%;
+    .header-story{
+        display: none;
     }
 
-    .header-fixed-head-web{
-        display:none;
-    }
-    .section-right{
-        display:none;
+    section{
+        margin-left: 10%;
+        margin-right: 50%;
     }
 
     .header-fixed-head-mobile{
         display: none;
+    }
+
+    footer{
+        display: none;
+    }
+    .section-view{
+        /* display: flex; */
+        width: 100%;
+        position: relative;
+    }
+
+    .section-right{
+        border: red 2px solid;
+        position: absolute;
+        left: 40rem;
+        bottom: 75.5%;
+        width: 70%;
+        height: 40rem;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .section-right-head{
+        display: flex;
+        height: 3rem;
+        flex-basis: 20%;
+        justify-content: flex-start;
+        align-content: center;
+        margin: 2%;
+    }
+
+    .section-right-image{
+       margin-top: 2%;
+       margin-right: 5%;
+       border-radius: 100%;
+       
+    }
+    
+    .section-right-name{
+        margin-top: 1.5%;  
+    }
+
+    .section-right-body-ul{
+        display: block;
+        
+    }
+
+    .section-right-body-header{
+        margin: 2%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .section-right-body-stories{
+        
+        border: blue 2px solid;
+        
+    }
+    .section-right-body-stories-ul{
+        list-style: none;
+        overflow: auto;
+        height: 15rem;
+        margin-left: 5%;
+    }
+
+    .section-right-body-suggestion-ul{
+        list-style: none;
+        border: yellow 2px solid;
+        height: 15rem;
+        margin-top: 5%;
+    }
+
+    .section-right-suggestion-head{
+        display: flex;
+        height: 3rem;
+        flex-basis: 70%;
+        justify-content: space-between;
+        align-content: center;
+        margin: 2%;
+    }
+
+    .section-right-body-suggestion-li{
+        margin-top: 2%;
+        border-radius: 100%;
+        flex-basis: 25%;
+    }
+
+    .section-right-name{
+        margin-top: 1.5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .ex1{
+        margin: 5% 2%;
+        height: .5rem;
+    }
+
+    .section-right-body-header-sub{
+        margin-top: 2%;
+        margin-right: 5%;
     }
   
 }
@@ -350,4 +450,5 @@ footer{
         margin-top: 5%;
     }
 
+    
 }
