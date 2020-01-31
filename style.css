@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ********************** DEFALTS    **************************************8888 */
+header{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+section{
+    margin: 2% 0%;
+}
+
+/* **************************  HEADER     *******************************************8 */
+
+
+.header-fixed-head-web {
+    background-color: yellow;
+}
+
+.header-fixed-head-mobile{
+    width: 100%;
+    position: fixed;
+    background-color: wheat;
+    height: 6%;
+    margin-bottom: 10%;
+}
+
+.header-fixed-ul{
+    margin: .5% ;
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+.header-mobile-li-1{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-mobile-li-3{
+    display: flex;
+    justify-content: center;
+}
+
+.header-mobile-li-3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-story{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.header-story-ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    background-color: teal;
+}
+
+.header-story-li{
+    
+    margin: 7% 1.5% 2% 1.5%;
+    justify-content: space-between;
+    background-color: violet;
+    height: 5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.story{
+    
+    width: 60%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+/* ********************** BODY-SECTION-1    **************************************************88 */
+
+.section-1{
+    width: 100%;
+}
+.section-1-head{
+    display: flex;
+    width: 100%;
+}
+.section-1-head-ul{
+    display: flex;
+    list-style: none;
+    height: 3rem;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.section-1-head-list{
+    width: 100%;
+    display: flex;
+}
+
+.body-header-picture{
+    margin: 5% 0% 0% -2%;
+    width:55%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+.section-1-head-list-left{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(26, 161, 78);
+    align-items: center;
+    
+}
+.section-1-head-list-right{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightcoral;
+    color: black;
+    align-items: center;
+}
+
+.body-header-menu-logo{
+    width: 20%;
+    height: 50%;
+}
+
+/* ********************************  SECTION-1-BODY   ********************************* */
+
+.section-1-body{
+    display: block;
+}
+
+.body-footer {
+    width: 100%;
+    display: flex;
+}
+
+.body-footer-left-ul{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: yellow;
+    flex-basis: 90%;
+}
+
+.body-footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    flex-basis: 10%;
+}
+
+.section-1-body-footer{
+    
+    background-color: red;
+}
+
+/* ************************ section-1-footer    ***********************************8 */
+
+
+
+
+
+
+
+/* *******************************************************************************************8 */
+
+@media screen and (max-width:1024px){
+    
+    section{
+        margin: 0;
+    }
+    
+    
+    .header-fixed-head-web{
+        display:none;
+    }
+    .section-right{
+        display:none;
+    }
+
+    .header-fixed-head-mobile{
+    
+        width: 100%;
+        position: fixed;
+        background-color: wheat;
+        height: 4%;
+        margin-bottom: 10%;
+    }
+    .header-mobile-image{
+        width:30%;
+        height:30%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-story{
+        margin: 0% 0%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+/* **********************************************************************888 */
+
+/* *******************************************************************************************8 */
+
+@media screen and (min-width:648px) and (max-width:1023px) {
+    
+    section{
+        margin: 0 0%;
+    }
+    
+    
+    .header-fixed-head-web{
+        display:none;
+    }
+    .section-right{
+        display:none;
+    }
+
+    .header-fixed-head-mobile{
+    
+        width: 100%;
+        position: fixed;
+        background-color: wheat;
+        height: 5%;
+        margin-bottom: 10%;
+    }
+    .header-mobile-image{
+        width:20%;
+        height:20%;
+    }
+}
+
+/* ****************************************************************88 */
+
+
+@media screen and (min-width:1023.5px){
+    
+    section{
+        margin: 0 0%;
+    }
+
+    .header-fixed-head-web{
+        display:none;
+    }
+    .section-right{
+        display:none;
+    }
+
+    .header-fixed-head-mobile{
+        display: none;
+    }
+  
+}
