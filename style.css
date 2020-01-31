@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* ********************** DEFALTS    **************************************8888 */
+/* ********************** DEFAULTS    **************************************8888 */
 header{
     width: 100%;
 }
@@ -13,6 +13,10 @@ body{
 }
 section{
     margin: 2% 0%;
+}
+
+.faint{
+    color: gray;
 }
 
 /* **************************  HEADER     *******************************************8 */
@@ -25,7 +29,7 @@ section{
 .header-fixed-head-mobile{
     width: 100%;
     position: fixed;
-    background-color: wheat;
+    background-color: #fff;
     height: 6%;
     margin-bottom: 10%;
 }
@@ -55,26 +59,30 @@ section{
     
     height: 100%;
     width: 100%;
+    
+    border-top:1rem solid red;
 }
 
 .header-story-ul{
     display: flex;
     width: 100%;
     list-style: none;
-    background-color: teal;
+    background-color:  #f3ebeb;
+    
 }
 
 .header-story-li{
     
     margin: 7% 1.5% 2% 1.5%;
     justify-content: space-between;
-    background-color: violet;
+    background-color: #f3ebeb;
     height: 5rem;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
+    
     
 }
 
@@ -83,6 +91,8 @@ section{
     width: 60%;
     height: 50%;
     border-radius: 100%;
+    margin: 15%;
+
 }
 
 /* ********************** BODY-SECTION-1    **************************************************88 */
@@ -124,17 +134,18 @@ section{
 .section-1-head-list-left{
     display: flex;
     justify-content: flex-start;
-    background-color: rgb(26, 161, 78);
+    background-color: #ffffff;
     align-items: center;
     justify-content: flex-start;
+    flex-basis: 40%;
     
 }
 .section-1-head-list-right{
     display: flex;
     justify-content: flex-end;
-    background-color: lightcoral;
-    color: black;
+    background-color: #ffffff;
     align-items: center;
+    flex-basis: 60%;
 }
 
 .body-header-menu-logo{
@@ -154,13 +165,14 @@ section{
 .body-footer {
     width: 100%;
     display: flex;
+    margin: 2% 2%;
 }
 
 .body-footer-left-ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: yellow;
+    background-color: #ffffff;
     flex-basis: 30%;
 }
 
@@ -168,15 +180,14 @@ section{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: blue;
-    flex-basis: 80%;
+    background-color: #ffffff;
+    flex-basis: 66%;
 }
 
 
-.section-1-body-footer{
-    margin: 0 2%;
-    background-color: red;
-}
+/* .section-1-body-footer{
+    margin: 2% 2%;
+} */
 
 .section-1-footer{
     margin: 2% 2%;
@@ -193,28 +204,35 @@ section{
 
 footer{
     width: 100%;
+    background-color: #ffffff;
+    border-top:1px solid black;
+    
 }
 
 .footer-ul{
     display: flex;
+    
 }
 
 .footer-menu-li{
     
-    margin: 7% 1.5% 2% 1.5%;
+    margin: 5% 4% 5% 4%;
     justify-content: space-between;
-    background-color: violet;
+    background-color: #ffffff;
     height: 2rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     
+    
 }
 
 .footer-menu-li-image{
     margin: 1% ;
+    
 }
+
 
 /* ************************ section-1-footer    ***********************************8 */
 
@@ -244,7 +262,7 @@ footer{
     
         width: 100%;
         position: fixed;
-        background-color: wheat;
+        background-color:  #fff;
         height: 4%;
         margin-bottom: 10%;
     }
@@ -286,7 +304,7 @@ footer{
     
         width: 100%;
         position: fixed;
-        background-color: wheat;
+        background-color:  #fff;
         height: 5%;
         margin-bottom: 10%;
     }
@@ -294,6 +312,8 @@ footer{
         width:20%;
         height:20%;
     }
+
+    
 }
 
 /* ****************************************************************88 */
@@ -322,11 +342,12 @@ footer{
     .header-fixed-head-mobile{
         width: 100%;
         position: fixed;
-        background-color: wheat;
+        background-color: #fff;
         height: 4%;
     }
 
     .header-story-li{
-        margin-top: 10%;
+        margin-top: 5%;
     }
+
 }
