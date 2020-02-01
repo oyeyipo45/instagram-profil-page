@@ -37,7 +37,7 @@ main{
 }
 
 .header-fixed-head-mobile{
-    width: 99%;
+    width: 100%;
     position: fixed;
     background-color: #fff;
     height: 10%;
@@ -50,7 +50,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 96%;
+    width: 100vw;
 }
 
 .header-mobile-li-1{
@@ -237,7 +237,7 @@ main{
     align-items: center;
 }
 .body-section-1-p{
-    margin-right: 15%;
+    margin-right: 35%;
 }
 
 .section-1-head-list-right{
@@ -430,7 +430,10 @@ footer{
         margin: 0% 13% 0% 5%;
     }
     
-    
+    .body-section-1-p{
+        margin-right: 65%;
+    }
+
     .header-fixed-head-web{
         display:none;
     }
