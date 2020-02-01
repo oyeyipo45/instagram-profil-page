@@ -11,6 +11,9 @@ header{
 body{
     width: 100%;
 }
+footer{
+    width: 100%;
+}
 section{
     margin: 2% 0%;
 }
@@ -45,18 +48,19 @@ main{
 }
 
 .header-fixed-ul-mobile{
-    margin: 1% ;
+    /* margin: 1%; */
+    margin: 1%;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    flex-basis: 100%;
 }
 
 .header-mobile-li-1{
-    /* display: flex;
-    justify-content: flex-start; */
+    margin-right: 3%;
     margin-top: 1%;
+    
 }
 
 .header-mobile-li{
@@ -273,6 +277,7 @@ main{
     width: 100%;
     display: flex;
     margin: 2% 2%;
+    flex-basis: 100%;
 }
 
 .body-footer-left-ul{
@@ -321,6 +326,7 @@ footer{
 
 .footer-ul{
     display: flex;
+    flex-basis: 100%;
     
 }
 
@@ -490,7 +496,7 @@ footer{
         border: 0px solid;
         position: absolute;
         left: 37rem;
-        bottom: 75.7%;
+        bottom: 74.28%;
         width: 67%;
         height: 45rem;
         justify-content: center;
