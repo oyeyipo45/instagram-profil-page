@@ -21,10 +21,10 @@ section{
 
 .faint-blue{
     color: blue;
-    opacity: .7;
+    opacity: .5;
 }
 main{
-    background-color: rebeccapurple;
+    background-color: #ffffff;
 }
 
 /* **************************  HEADER     *******************************************8 */
@@ -32,40 +32,42 @@ main{
 
 .header-fixed-head-web {
     background-color: #ffffff;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d1cfcf  ;
+    
 }
 
 .header-fixed-head-mobile{
-    width: 100%;
+    width: 99%;
     position: fixed;
     background-color: #fff;
-    height: 6%;
+    height: 10%;
     margin-bottom: 10%;
 }
 
 .header-fixed-ul-mobile{
-    margin: .5% ;
+    margin: 1% ;
     list-style: none;
     display: flex;
-    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
 }
 
 .header-mobile-li-1{
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
+    /* display: flex;
+    justify-content: flex-start; */
     margin-top: 1%;
 }
 
 .header-mobile-li{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-top: 1%;
 }
 
 .header-mobile-li-3{
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
     margin-top: 1%;
 }
 
@@ -137,7 +139,7 @@ main{
 .header-li-instagram-name{
     margin-top: 5%;
     margin-left: 9%;
-    border-left: 1.2px black solid;
+    border-left: 1.2px #d1cfcf solid;
     padding: 0% 6%;
 }
 
@@ -192,7 +194,7 @@ main{
 
 .section-1{
     width: 100%;
-    border: 1px solid #25252b;
+    border: 1px solid #d1cfcf;
     border-radius: .5%;
 }
 
@@ -215,7 +217,7 @@ main{
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    border-bottom: #25252b 1px solid;
+    border-bottom: #d1cfcf 1px solid;
 }
 
 .body-header-picture{
@@ -306,14 +308,14 @@ main{
 }
 
 .section-1-footer-list{
-    color: red;
+    color: black;
 
 }
 
 footer{
     width: 100%;
     background-color: #ffffff;
-    border-top:1px solid black;
+    border-top:1px solid #d1cfcf;
     
 }
 
@@ -347,7 +349,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 2% 2%;
-    border-top: #25252b 1px solid ;
+    border-top: #d1cfcf 1px solid ;
 }
 
 
@@ -361,7 +363,7 @@ footer{
 
 /* *******************************************************************************************8 */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1022px){
     
     section{
         margin: 0;
@@ -374,6 +376,7 @@ footer{
     }
     .section-right{
         display:none;
+        
     }
 
     .header-fixed-head-mobile{
@@ -421,10 +424,10 @@ footer{
 
 /* *******************************************************************************************8 */
 
-@media screen and (min-width:648px) and (max-width:1023px) {
+@media screen and (min-width:648px) and (max-width:1020px) {
     
     section{
-        margin: 0 0%;
+        margin: 0% 13% 0% 5%;
     }
     
     
@@ -433,6 +436,7 @@ footer{
     }
     .section-right{
         display:none;
+        
     }
 
     .header-fixed-head-mobile{
@@ -488,6 +492,7 @@ footer{
         height: 45rem;
         justify-content: center;
         align-content: center;
+        margin-left: 5%
     }
 
     .section-right-head{
@@ -540,7 +545,7 @@ footer{
 
     .section-right-body-stories{
         
-        border: #25252b 1px solid;
+        border: #d1cfcf 1px solid;
         background-color: #ffffff;
         
     }
@@ -553,7 +558,7 @@ footer{
 
     .section-right-body-suggestion-ul{
         list-style: none;
-        border: #25252b 1px solid;
+        border: #d1cfcf 1px solid;
         background-color: #ffffff;
         height: 15rem;
         margin-top: 5%;
@@ -600,17 +605,15 @@ footer{
   
 }
 
+
 @media screen and (max-width:647px) {
     .header-fixed-head-mobile{
         width: 100%;
         position: fixed;
         background-color: #fff;
-        height: 4%;
+        height: 5.5%;
     }
 
-    .header-story-li{
-        margin-top: 5%;
-    }
 
     .section-1-footer-comment{
         display:none;
