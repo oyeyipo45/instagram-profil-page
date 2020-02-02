@@ -676,14 +676,14 @@ footer{
 
 
 
-/* @media screen and (max-width:1300px ) {
+@media screen and  (min-width:1300px ) and (max-width:1500px ) {
 
     .section-right{
         font-family: sans-serif;
         font-size: .8rem;
         border: 0px solid;
         position: absolute;
-        left: 52rem;
+        left: 38rem;
         bottom: 76.4%;
         width: 55%;
         height: 45rem;
@@ -691,7 +691,7 @@ footer{
         align-content: center;
         margin-left: 5%
     }
-} */
+}
 
 
 @media screen and (min-width: 1150px) and (max-width:1290px ) {
