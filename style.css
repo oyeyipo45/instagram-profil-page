@@ -123,7 +123,7 @@ main{
     height: 60%;
     border-radius: 100%;
     margin: 10%;
-    border: 2px #f09433 solid;
+    border: 2px #cc0066 solid;
     padding: .5%;
 
 }
@@ -428,7 +428,7 @@ footer{
         margin-left: 5%;
         margin-right: 9%;
         border-radius: 100%;
-        border: 2px #f09433 solid;
+        border: 2px #cc0066 solid;
         padding: .5%;
         
     }
@@ -537,7 +537,7 @@ footer{
     .section-right-image{
        margin-top: 2%;
        border-radius: 100%;
-       border: 2px #f09433 solid;
+       border: 2px #cc0066 solid;
        padding: .5%;
        
     }
@@ -546,7 +546,7 @@ footer{
         margin-top: 2%;
         margin-left: 5%;
         border-radius: 100%;
-        border: 2px #f09433 solid;
+        border: 2px solid #cc0066;
         padding: .5%;
         width: 20%;
         
@@ -683,7 +683,7 @@ footer{
         font-size: .8rem;
         border: 0px solid;
         position: absolute;
-        left: 38rem;
+        left: 39rem;
         bottom: 76.4%;
         width: 55%;
         height: 45rem;
