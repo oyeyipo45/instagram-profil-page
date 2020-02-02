@@ -26,6 +26,7 @@ section{
 .faint{
     color: gray;
     font-weight: 400;
+    opacity: .6;
 }
 
 .faint-blue{
@@ -209,12 +210,14 @@ main{
     width: 100%;
     border: 1px solid #d1cfcf;
     border-radius: .5%;
+    
 }
 
 .section-1-head{
     display: flex;
     width: 100%;
 }
+
 .section-1-head-ul{
     display: flex;
     list-style: none;
@@ -251,6 +254,8 @@ main{
 }
 .body-section-1-p{
     margin-right: 45%;
+    color: black;
+    opacity: .8;
 }
 
 .section-1-head-list-right{
@@ -325,6 +330,8 @@ main{
 .section-1-footer-list{
     color: black;
     line-height: 1.5;
+    opacity: .9;
+    
 
 }
 
@@ -366,7 +373,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 2% 2%;
-    border-top: #d1cfcf 1px solid ;
+    border-top: #d1cfcf 1px solid;
+    
 }
 
 
@@ -684,7 +692,7 @@ footer{
         border: 0px solid;
         position: absolute;
         left: 39rem;
-        bottom: 76.4%;
+        bottom: 76.7%;
         width: 55%;
         height: 45rem;
         justify-content: center;
